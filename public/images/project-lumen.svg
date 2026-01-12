@@ -1,0 +1,15 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="48" fill="#0B0F19"/>
+  <rect x="120" y="120" width="960" height="510" rx="32" fill="url(#paint0_linear)" fill-opacity="0.2"/>
+  <rect x="160" y="180" width="280" height="200" rx="24" fill="#7EE0FF" fill-opacity="0.12"/>
+  <rect x="480" y="180" width="480" height="200" rx="24" fill="#B69CFF" fill-opacity="0.12"/>
+  <path d="M220 480H980" stroke="#7EE0FF" stroke-opacity="0.5" stroke-width="4"/>
+  <text x="160" y="160" fill="#E6F6FF" font-family="Playfair Display, serif" font-size="40" letter-spacing="5">LUMEN ATELIER</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="120" y1="120" x2="1080" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7EE0FF" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#B69CFF" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#F0B7FF" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+</svg>
