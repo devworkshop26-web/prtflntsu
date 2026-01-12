@@ -17,7 +17,7 @@ export function About() {
               {differentiators.map((item) => (
                 <div key={item.title} className="rounded-2xl border border-white/10 bg-white/5 p-5">
                   <h3 className="font-display text-xl font-semibold text-white md:text-2xl">{item.title}</h3>
-                  <p className="mt-2 text-sm text-slate-300/80 md:text-base md:leading-relaxed">{item.description}</p>
+                  <p className="mt-2 text-sm text-white/80 md:text-base md:leading-relaxed">{item.description}</p>
                 </div>
               ))}
             </div>

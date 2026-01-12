@@ -2,12 +2,14 @@ import { SectionReveal } from "@/components/SectionReveal";
 import { SectionTitle } from "@/components/SectionTitle";
 import { SkillPill } from "@/components/SkillPill";
 import { ParallaxBlobs } from "@/components/decor/ParallaxBlobs";
+import { ParallaxDots } from "@/components/decor/ParallaxDots";
 import { skillGroups } from "@/data/site";
 
 export function Skills() {
   return (
     <section id="skills" className="relative overflow-hidden py-24">
       <ParallaxBlobs className="opacity-60" />
+      <ParallaxDots className="opacity-50" />
       <div className="mx-auto max-w-6xl space-y-12 px-6">
         <SectionReveal>
           <SectionTitle

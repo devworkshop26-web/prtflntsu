@@ -3,12 +3,14 @@ import { GradientBlob } from "@/components/GradientBlob";
 import { HeroVisual } from "@/components/HeroVisual";
 import { SectionReveal } from "@/components/SectionReveal";
 import { ParallaxBlobs } from "@/components/decor/ParallaxBlobs";
+import { ParallaxDots } from "@/components/decor/ParallaxDots";
 import { site } from "@/data/site";
 
 export function Hero() {
   return (
-    <section className="relative flex min-h-screen items-center overflow-hidden pb-24 pt-28">
+    <section className="relative -mt-16 flex min-h-[100svh] items-center overflow-hidden pb-16 pt-16">
       <ParallaxBlobs />
+      <ParallaxDots className="opacity-60" />
       <GradientBlob className="left-[-80px] top-16 h-60 w-60 opacity-70" />
       <GradientBlob className="right-[-120px] top-1/3 h-72 w-72 opacity-60" />
       <div className="absolute inset-0 bg-hero-glow" aria-hidden="true" />

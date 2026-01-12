@@ -2,12 +2,14 @@ import { SectionReveal } from "@/components/SectionReveal";
 import { SectionTitle } from "@/components/SectionTitle";
 import { CTAButton } from "@/components/CTAButton";
 import { ParallaxBlobs } from "@/components/decor/ParallaxBlobs";
+import { ParallaxDots } from "@/components/decor/ParallaxDots";
 import { site } from "@/data/site";
 
 export function Contact() {
   return (
     <section id="contact" className="relative overflow-hidden py-24">
       <ParallaxBlobs className="opacity-50" />
+      <ParallaxDots className="opacity-40" />
       <div className="mx-auto grid max-w-6xl gap-12 px-6 lg:grid-cols-[1.1fr_0.9fr]">
         <SectionReveal>
           <SectionTitle
