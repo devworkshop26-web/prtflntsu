@@ -1,0 +1,15 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="750" rx="48" fill="#0B0F19"/>
+  <rect x="100" y="110" width="1000" height="530" rx="36" fill="url(#paint0_linear)" fill-opacity="0.18"/>
+  <circle cx="320" cy="280" r="120" fill="#7EE0FF" fill-opacity="0.12"/>
+  <circle cx="820" cy="320" r="120" fill="#B69CFF" fill-opacity="0.12"/>
+  <path d="M320 520C420 420 600 360 880 420" stroke="#7EE0FF" stroke-opacity="0.5" stroke-width="5"/>
+  <text x="140" y="170" fill="#E6F6FF" font-family="Inter, sans-serif" font-size="36" letter-spacing="6">FLUX AUTOMATION</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="100" y1="110" x2="1100" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7EE0FF" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#B69CFF" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#F0B7FF" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+</svg>
