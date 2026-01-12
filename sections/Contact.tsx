@@ -1,11 +1,13 @@
 import { SectionReveal } from "@/components/SectionReveal";
 import { SectionTitle } from "@/components/SectionTitle";
 import { CTAButton } from "@/components/CTAButton";
+import { ParallaxBlobs } from "@/components/decor/ParallaxBlobs";
 import { site } from "@/data/site";
 
 export function Contact() {
   return (
-    <section id="contact" className="py-24">
+    <section id="contact" className="relative overflow-hidden py-24">
+      <ParallaxBlobs className="opacity-50" />
       <div className="mx-auto grid max-w-6xl gap-12 px-6 lg:grid-cols-[1.1fr_0.9fr]">
         <SectionReveal>
           <SectionTitle
@@ -13,7 +15,7 @@ export function Contact() {
             title="Discutons de votre prochain lancement premium."
             description="Un formulaire rapide et des réponses claires sous 24h."
           />
-          <div className="mt-6 space-y-4 text-sm text-muted">
+          <div className="mt-6 space-y-4 text-sm text-slate-300/80 md:text-base md:leading-relaxed">
             <p>
               Un brief, une idée, un besoin d’automatisation ? Je vous accompagne de la stratégie au delivery.
             </p>

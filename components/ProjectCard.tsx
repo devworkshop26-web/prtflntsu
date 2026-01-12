@@ -18,12 +18,13 @@ export function ProjectCard({ title, description, image, tags, href, metrics }: 
   return (
     <motion.a
       href={href}
-      whileHover={prefersReducedMotion ? undefined : { y: -6 }}
+      whileHover={prefersReducedMotion ? undefined : { y: -8 }}
       className="group relative overflow-hidden rounded-3xl border border-white/10 bg-surface/60 p-6 shadow-card backdrop-blur transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/70 focus-visible:ring-offset-2 focus-visible:ring-offset-base"
     >
       <div className="absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100">
-        <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/10 via-transparent to-violet-400/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/10 via-transparent to-violet-400/25" />
       </div>
+      <div className="pointer-events-none absolute inset-0 rounded-3xl ring-1 ring-white/10 transition group-hover:ring-primary/40" />
       <div className="relative">
         <div className="relative mb-6 aspect-[16/10] overflow-hidden rounded-2xl border border-white/10">
           <Image src={image} alt={title} fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
@@ -35,8 +36,8 @@ export function ProjectCard({ title, description, image, tags, href, metrics }: 
             </span>
           ))}
         </div>
-        <h3 className="mt-4 text-xl font-semibold text-white">{title}</h3>
-        <p className="mt-2 text-sm text-muted">{description}</p>
+        <h3 className="mt-4 font-display text-xl font-semibold text-white md:text-2xl">{title}</h3>
+        <p className="mt-2 text-sm text-slate-300/80 md:text-base md:leading-relaxed">{description}</p>
         <div className="mt-6 flex flex-wrap gap-4 text-xs text-white/80">
           {metrics.map((metric) => (
             <div key={metric.label} className="space-y-1">

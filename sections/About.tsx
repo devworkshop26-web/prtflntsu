@@ -16,8 +16,8 @@ export function About() {
             <div className="space-y-4">
               {differentiators.map((item) => (
                 <div key={item.title} className="rounded-2xl border border-white/10 bg-white/5 p-5">
-                  <h3 className="text-lg font-semibold text-white">{item.title}</h3>
-                  <p className="mt-2 text-sm text-muted">{item.description}</p>
+                  <h3 className="font-display text-xl font-semibold text-white md:text-2xl">{item.title}</h3>
+                  <p className="mt-2 text-sm text-slate-300/80 md:text-base md:leading-relaxed">{item.description}</p>
                 </div>
               ))}
             </div>
@@ -26,11 +26,11 @@ export function About() {
         <SectionReveal delay={0.1}>
           <div className="space-y-6">
             <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-white/5 to-transparent p-8">
-              <p className="text-sm text-muted">
+              <p className="text-sm text-slate-300/80 md:text-base md:leading-relaxed">
                 {site.name} aide les équipes ambitieuses à scaler grâce à des interfaces ultra fluides et des
                 automatisations sans friction.
               </p>
-              <p className="mt-4 text-sm text-muted">
+              <p className="mt-4 text-sm text-slate-300/80 md:text-base md:leading-relaxed">
                 Chaque projet est pensé pour livrer un impact mesurable, avec un design sobre, des micro-interactions
                 élégantes et une architecture performante.
               </p>

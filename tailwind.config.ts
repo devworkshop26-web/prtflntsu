@@ -16,8 +16,8 @@ const config: Config = {
         accent: "#B69CFF"
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "ui-sans-serif", "system-ui"],
-        serif: ["var(--font-playfair)", "ui-serif", "Georgia"]
+        sans: ["var(--font-body)", "ui-sans-serif", "system-ui"],
+        display: ["var(--font-display)", "ui-sans-serif", "system-ui"]
       },
       boxShadow: {
         glow: "0 0 40px rgba(126, 224, 255, 0.25)",

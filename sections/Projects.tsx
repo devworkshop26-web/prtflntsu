@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import { SectionReveal } from "@/components/SectionReveal";
 import { SectionTitle } from "@/components/SectionTitle";
 import { ProjectCard } from "@/components/ProjectCard";
+import { ParallaxBlobs } from "@/components/decor/ParallaxBlobs";
 import { filters, projects } from "@/data/site";
 
 export function Projects() {
@@ -14,7 +15,8 @@ export function Projects() {
   }, [activeFilter]);
 
   return (
-    <section id="projects" className="py-24">
+    <section id="projects" className="relative overflow-hidden py-24">
+      <ParallaxBlobs className="opacity-50" />
       <div className="mx-auto max-w-6xl space-y-10 px-6">
         <SectionReveal>
           <SectionTitle

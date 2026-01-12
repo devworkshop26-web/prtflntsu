@@ -19,8 +19,8 @@ export function Services() {
             <SectionReveal key={service.title} delay={index * 0.1}>
               <div className="flex h-full flex-col justify-between rounded-3xl border border-white/10 bg-white/5 p-6">
                 <div>
-                  <h3 className="text-xl font-semibold text-white">{service.title}</h3>
-                  <p className="mt-3 text-sm text-muted">{service.description}</p>
+                  <h3 className="font-display text-xl font-semibold text-white md:text-2xl">{service.title}</h3>
+                  <p className="mt-3 text-sm text-slate-300/80 md:text-base md:leading-relaxed">{service.description}</p>
                   <ul className="mt-6 space-y-2 text-sm text-white/80">
                     {service.deliverables.map((item) => (
                       <li key={item} className="flex items-center gap-2">

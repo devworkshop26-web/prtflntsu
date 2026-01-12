@@ -35,15 +35,15 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
           <div className="space-y-6">
             <div>
               <p className="text-xs uppercase tracking-[0.3em] text-primary/70">Objectifs</p>
-              <p className="mt-3 text-sm text-muted">{project.story.challenge}</p>
+              <p className="mt-3 text-sm text-slate-300/80 md:text-base md:leading-relaxed">{project.story.challenge}</p>
             </div>
             <div>
               <p className="text-xs uppercase tracking-[0.3em] text-primary/70">Solution</p>
-              <p className="mt-3 text-sm text-muted">{project.story.solution}</p>
+              <p className="mt-3 text-sm text-slate-300/80 md:text-base md:leading-relaxed">{project.story.solution}</p>
             </div>
             <div>
               <p className="text-xs uppercase tracking-[0.3em] text-primary/70">Résultats</p>
-              <p className="mt-3 text-sm text-muted">{project.results}</p>
+              <p className="mt-3 text-sm text-slate-300/80 md:text-base md:leading-relaxed">{project.results}</p>
             </div>
           </div>
         </SectionReveal>
